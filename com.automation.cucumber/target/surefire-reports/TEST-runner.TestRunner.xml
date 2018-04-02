@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="24" failures="0" name="runner.TestRunner" time="0.002" errors="0" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib"/>
+    <property name="java.vm.version" value="25.131-b11"/>
+    <property name="browser" value="firefox"/>
+    <property name="gopherProxySet" value="false"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="/Users/subhashr/documents/Mobile_Automation/Workspace/com.automation.cucumber"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=":"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/Users/subhashr/Documents/Mobile_Automation/Workspace/com.automation.cucumber"/>
+    <property name="java.runtime.version" value="1.8.0_131-b11"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/endorsed"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.io.tmpdir" value="/var/folders/44/z169pc116_z7kgsw0c00hrn80000gp/T/"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="classworlds.conf" value="/Users/subhashr/downloads/apache-maven-3.5.3/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/subhashr/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="maven.conf" value="/Users/subhashr/downloads/apache-maven-3.5.3/conf"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.12.6"/>
+    <property name="library.jansi.path" value="/Users/subhashr/downloads/apache-maven-3.5.3/lib/jansi-native"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16|global.anz.com|*.global.anz.com|service.anz|*.service.anz|service.dev|*.service.dev|apps.anz|*.apps.anz|globaltest.anz.com|*.globaltest.anz.com"/>
+    <property name="user.home" value="/Users/subhashr"/>
+    <property name="user.timezone" value="Australia/Melbourne"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="subhashr"/>
+    <property name="java.class.path" value="/Users/subhashr/downloads/apache-maven-3.5.3/boot/plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean test -Dbrowser=firefox"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_131"/>
+    <property name="java.ext.dirs" value="/Users/subhashr/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
+    <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="/Users/subhashr/downloads/apache-maven-3.5.3"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16|global.anz.com|*.global.anz.com|service.anz|*.service.anz|service.dev|*.service.dev|apps.anz|*.apps.anz|globaltest.anz.com|*.globaltest.anz.com"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16|global.anz.com|*.global.anz.com|service.anz|*.service.anz|service.dev|*.service.dev|apps.anz|*.apps.anz|globaltest.anz.com|*.globaltest.anz.com"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase classname="Scenario: While registering, if the email address is incorrect. User should see an error message" name="Given User has landed on the &quot;Authentication&quot; page" time="0.001"/>
+  <testcase classname="Scenario: While registering, if the email address is incorrect. User should see an error message" name="When User enters an invalid &quot;12345&quot; email address" time="0"/>
+  <testcase classname="Scenario: While registering, if the email address is incorrect. User should see an error message" name="Then User should see an error message" time="0"/>
+  <testcase classname="Scenario: While registering, if the email address is incorrect. User should see an error message" name="Scenario: While registering, if the email address is incorrect. User should see an error message" time="0.001"/>
+  <testcase classname="Scenario: User should be able to register using a valid email address" name="Given User has landed on the &quot;Authentication&quot; page" time="0"/>
+  <testcase classname="Scenario: User should be able to register using a valid email address" name="And User has a valid &quot;g123456@gmail.in&quot; email address" time="0"/>
+  <testcase classname="Scenario: User should be able to register using a valid email address" name="When User enters the registration details" time="0"/>
+  <testcase classname="Scenario: User should be able to register using a valid email address" name="Then User should be able to regiser successfully" time="0"/>
+  <testcase classname="Scenario: User should be able to register using a valid email address" name="Scenario: User should be able to register using a valid email address" time="0"/>
+  <testcase classname="Given User has landed on the &quot;Authentication&quot; page(Scenario: Check whether Megamenu works (Dresses -&gt; Summer dresses))" name="Given User has landed on the &quot;Authentication&quot; page(Scenario: Check whether Megamenu works " time="0"/>
+  <testcase classname="And User has a valid &quot;b123456@gmail.in&quot; email address(Scenario: Check whether Megamenu works (Dresses -&gt; Summer dresses))" name="And User has a valid &quot;b123456@gmail.in&quot; email address(Scenario: Check whether Megamenu works " time="0"/>
+  <testcase classname="And User had logged in the application(Scenario: Check whether Megamenu works (Dresses -&gt; Summer dresses))" name="And User had logged in the application(Scenario: Check whether Megamenu works " time="0"/>
+  <testcase classname="When User selects &quot;DRESSES&quot; menu(Scenario: Check whether Megamenu works (Dresses -&gt; Summer dresses))" name="When User selects &quot;DRESSES&quot; menu(Scenario: Check whether Megamenu works " time="0"/>
+  <testcase classname="And User selects &quot;Summer Dresses&quot; menu(Scenario: Check whether Megamenu works (Dresses -&gt; Summer dresses))" name="And User selects &quot;Summer Dresses&quot; menu(Scenario: Check whether Megamenu works " time="0"/>
+  <testcase classname="Then User should be able navigate to &quot;Summer dresses&quot; menu(Scenario: Check whether Megamenu works (Dresses -&gt; Summer dresses))" name="Then User should be able navigate to &quot;Summer dresses&quot; menu(Scenario: Check whether Megamenu works " time="0"/>
+  <testcase classname="Dresses -&gt; Summer dresses" name="Scenario: Check whether Megamenu works " time="0"/>
+  <testcase classname="Scenario: On the Summer dresses page.Click on Sort By: Price and validate whether the product grid is arranged properly" name="Given User has landed on the &quot;Authentication&quot; page" time="0"/>
+  <testcase classname="Scenario: On the Summer dresses page.Click on Sort By: Price and validate whether the product grid is arranged properly" name="And User has a valid &quot;b123456@gmail.in&quot; email address" time="0"/>
+  <testcase classname="Scenario: On the Summer dresses page.Click on Sort By: Price and validate whether the product grid is arranged properly" name="And User had logged in the application" time="0"/>
+  <testcase classname="Scenario: On the Summer dresses page.Click on Sort By: Price and validate whether the product grid is arranged properly" name="And User selects &quot;DRESSES&quot; menu" time="0"/>
+  <testcase classname="Scenario: On the Summer dresses page.Click on Sort By: Price and validate whether the product grid is arranged properly" name="And User selects &quot;Summer Dresses&quot; menu" time="0"/>
+  <testcase classname="Scenario: On the Summer dresses page.Click on Sort By: Price and validate whether the product grid is arranged properly" name="When User sorts the menu by &quot;Price: Lowest first&quot; option" time="0"/>
+  <testcase classname="Scenario: On the Summer dresses page.Click on Sort By: Price and validate whether the product grid is arranged properly" name="Then User should see the &quot;&quot; menu sorted" time="0"/>
+  <testcase classname="Scenario: On the Summer dresses page.Click on Sort By: Price and validate whether the product grid is arranged properly" name="Scenario: On the Summer dresses page.Click on Sort By: Price and validate whether the product grid is arranged properly" time="0"/>
+</testsuite>

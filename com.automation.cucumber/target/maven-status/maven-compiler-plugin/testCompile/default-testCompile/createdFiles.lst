@@ -1,0 +1,5 @@
+runner/TestRunner.class
+runner/test.class
+stepDefinition/registrationPage.class
+stepDefinition/genericFunctions.class
+stepDefinitions/stepDefinitions.class
