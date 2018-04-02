@@ -192,11 +192,11 @@ public class stepDefinitions {
 
 	@When("^User enters the registration details$")
 	public void user_enters_the_registration_details() {
-		sendKeys(driver.findElement(By.id("customer_firstname")), "akshay", true);
-		sendKeys(driver.findElement(By.id("customer_lastname")), "harti", true);
+		sendKeys(driver.findElement(By.id("customer_firstname")), "ramyas", true);
+		sendKeys(driver.findElement(By.id("customer_lastname")), "subhash", true);
 		sendKeys(driver.findElement(By.id("passwd")), "abc123", true);
-		sendKeys(driver.findElement(By.id("firstname")), "akshay", true);
-		sendKeys(driver.findElement(By.id("lastname")), "harti", true);
+		sendKeys(driver.findElement(By.id("firstname")), "ramyas", true);
+		sendKeys(driver.findElement(By.id("lastname")), "subhash", true);
 		sendKeys(driver.findElement(By.id("address1")), "220 spancer street", true);
 		sendKeys(driver.findElement(By.id("city")), "melbourne", true);
 		sendKeys(driver.findElement(By.id("postcode")), "30000", true);
