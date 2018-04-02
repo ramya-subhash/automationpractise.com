@@ -30,3 +30,6 @@ Commands to run scripts from command line
 1. mvn clean test -Dbrowser="chrome"
 2. mvn clean test ---> this will execute the scripts in chrome browser, because default is chrome browser if not specified 
 
+Reports
+1. Please refer to /Users/subhashr/Documents/Mobile_Automation/Workspace/com.automation.cucumber/target/surefire-reports  path for the individual test results.
+
