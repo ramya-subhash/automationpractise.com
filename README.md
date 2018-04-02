@@ -8,6 +8,7 @@ Version Specifications
 4. Cucumber: 1.2.2
 5. Cucumber-jvm-deps: 1.0.5
 6. Guava: 23.0
+7. Maven : 3.5.3
 
 Browsers:
 1. Firefox and chrome
@@ -19,6 +20,13 @@ Scenarios:
 3. Check whether Megamenu works (Dresses -> Summer dresses)
 4. On the Summer dresses page.Click on Sort By: Price and validate whether the product grid is arranged properly
 
-Commands to run the scripts
+Setting up maven 
+1. export M2_HOME=/Users/subhashr/downloads/apache-maven-3.5.3  
+2. export M2=$M2_HOME/bin 
+3. export PATH=$M2:$PATH
+4. mvn -version
 
+Commands to run scripts from command line
+1. mvn clean test -Dbrowser="chrome"
+2. mvn clean test ---> this will execute the scripts in chrome browser, because default is chrome browser if not specified 
 
