@@ -172,7 +172,7 @@ public class stepDefinitions {
 
 	@Given("^User has landed on the \"(.*?)\" page$")
 	public void user_has_landed_on_the_page(String page) {
-		launch("firefox");
+		launch(browser);
 		clickElement(driver.findElement(By.className("login")));
 		Assert.assertTrue("Element Present", driver.findElement(By.xpath("//span[contains(text(),page)]")).isDisplayed());
 	}
