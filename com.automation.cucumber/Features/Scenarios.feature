@@ -7,8 +7,7 @@
 #4. On the Summer dresses page.Click on Sort By: Price and validate whether the product grid is arranged properly
 
 @tag
-Feature: Title of your feature
-  I want to use this template for my feature file
+Feature: To test automationpractise.com
 
  @tag1
   Scenario: While registering, if the email address is incorrect. User should see an error message
